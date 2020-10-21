@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "344013bb-0869-4a65-915c-9a0b1fb84039",
+		"name": "colaline",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/save_profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ชื่อ\":\"มานพrrพrrrz\",\r\n    \"นามสกุล\":\"ใจหวานs\",\r\n    \"วันเกิด\":\"30-12-2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/save_profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"save_profile"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
